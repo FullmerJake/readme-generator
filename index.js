@@ -32,11 +32,6 @@ const questions = () => {
             }
         },
         {
-            type: 'confirm',
-            name: 'contentsTable',
-            message: 'Would you like a table of contents?'
-        },
-        {
             type: 'input',
             name: 'installation',
             message: 'Please provide a step-by-step description of how to get the development environment running.',
