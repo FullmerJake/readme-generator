@@ -11,7 +11,7 @@
     * [Tests](#tests)
     * [Questions](#questions)
 
-  ## Installation
+  ## Installation <a name="installation">
   test
 
   ## Usage
