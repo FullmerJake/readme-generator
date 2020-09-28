@@ -28,7 +28,7 @@ const questions = () => {
                     return true;
                 }
                 else {
-                    console.log('This is a very important part, please provide a description.');
+                    console.log('Please provide a description of your project.');
                     return false;
                 }
             }
@@ -42,7 +42,7 @@ const questions = () => {
                     return true;
                 }
                 else {
-                    console.log("How will people know how to use your tool if they don't know how to get it? Please enter how to install your application.");
+                    console.log("Please provide an installation guide.");
                     return false;
                 }
             }
@@ -56,7 +56,7 @@ const questions = () => {
                     return true;
                 }
                 else {
-                    console.log('The people need to know how your application works if they are going to be able to help! Please enter some instructions.');
+                    console.log('Please enter instructions');
                     return false;
                 }
             }
@@ -77,7 +77,7 @@ const questions = () => {
                     return true;
                 }
                 else {
-                    console.log('Help other developers help you. Please enter some guidelines on how others can contribute.');
+                    console.log('Please provide how developers can help.');
                     return false;
                 }
             }
@@ -91,7 +91,7 @@ const questions = () => {
                     return true;
                 }
                 else {
-                    console.log('Show off your application. Please provide an example test and how to run it.');
+                    console.log('Please provide a test.');
                     return false;
                 }
             }
@@ -105,7 +105,7 @@ const questions = () => {
                     return true;
                 }
                 else {
-                    console.log('This is how people will be able to find your work. Please enter your Github Username.');
+                    console.log('Please enter your Github Username.');
                     return false;
                 }
             }
@@ -119,7 +119,7 @@ const questions = () => {
                     return true;
                 }
                 else {
-                    console.log('This is how people will be able to get in contact with you if they have any questions. Please enter your email address.');
+                    console.log('Please enter your email address.');
                     return false;
                 }
             }
