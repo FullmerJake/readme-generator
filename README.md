@@ -27,6 +27,12 @@
 
   ## Tests
   This ReadMe IS the test example! It was created purely in the command line, and purly by this very application!
+  Walkthrough Video:
+  Part 1
+  https://drive.google.com/file/d/1JQTwWWIdUlGsiGu9xW-_3ZVV46T4q74a/view?usp=sharing
+  
+  Part 2
+  https://drive.google.com/file/d/1Bx6607kq8VgRKvDYhzj1Mo0DumTEaFCo/view?usp=sharing
   
   ## Contact
   Learn more about the owner of this project by visiting their Github Profile: <a href=https://github.com/FullmerJake>FullmerJake</a>
