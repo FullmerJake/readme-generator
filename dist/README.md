@@ -11,7 +11,7 @@
     * [Tests](#tests)
     * [Questions](#questions)
 
-  ## Installation <a name="installation">
+  ## Installation <a class="anchor">
   test
 
   ## Usage
