@@ -62,11 +62,10 @@ const questions = () => {
             }
         },
         {
-            type: 'checkbox',
+            type: 'list',
             name: 'license',
-            message: 'Please select any and all Licenses that apply. A badge will be added for each.',
-            // insert actual license later
-            choices: ['Javascript', 'HTML']
+            message: 'Please select the  License that you are using.',
+            choices: ['MIT' , 'Apache', 'ISC' , 'GNU GPLv3']
         },
         {
             type: 'input',
