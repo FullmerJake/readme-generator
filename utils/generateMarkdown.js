@@ -10,12 +10,12 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
+     [Installation](#installation)
+     [Usage](#usage)
+     [License](#license)
+     [Contributing](#contributing)
+     [Tests](#tests)
+     [Questions](#questions)
 
   ## Installation
   ${data.installation}
@@ -24,7 +24,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  This project uses the ${data.license} license. Check out <a href="https://choosealicense.com">THIS</a> website for more information on this and other licenses. 
+  This project uses the ${data.license} license. Check out <a href="https://choosealicense.com">this</a> website for more information on this and other licenses. 
 
   ## How to Contribute
   ${data.contributing}
