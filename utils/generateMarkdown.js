@@ -39,6 +39,9 @@ function generateMarkdown(data) {
   `;
 }
 
+// The previous block of code is basically for making the "HTML" of the Markdown page. It uses data that the user inputted previously to fill in the sections with it's relevant content. 
+// There are also a couple of quality of life amendments, such as making some literals into links as well so as to allow another user to interact with the page. 
+
 module.exports = generateMarkdown;
 
 

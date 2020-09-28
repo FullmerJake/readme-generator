@@ -6,6 +6,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = () => {
     return inquirer.prompt([
         {
+            // Title of the Project
             type: 'input',
             name: 'title',
             message: "What is the title of the Project (Note, this will be the title of your README)?",
@@ -20,6 +21,7 @@ const questions = () => {
             }
         },
         {
+            // Description Section Information
             type: 'input',
             name: 'description',
             message: 'Please provide a description of your project.',
@@ -34,6 +36,7 @@ const questions = () => {
             }
         },
         {
+            // Installation Section Information
             type: 'input',
             name: 'installation',
             message: 'Please provide a step-by-step description of how to get the development environment running.',
@@ -48,6 +51,7 @@ const questions = () => {
             }
         },
         {
+            // Usage Section Information
             type: 'input',
             name: 'usage',
             message: 'Please provide instructions and examples for how to use your application.',
@@ -62,12 +66,14 @@ const questions = () => {
             }
         },
         {
+            // License Section Information
             type: 'list',
             name: 'license',
             message: 'Please select the  License that you are using.',
             choices: ['MIT' , 'Apache', 'ISC' , 'GNU GPLv3']
         },
         {
+            // Contributing Section Information
             type: 'input',
             name: 'contributing',
             message: 'How can other developers contribute to this project? Please provide guidelines on how to do so.',
@@ -82,6 +88,7 @@ const questions = () => {
             }
         },
         {
+            // Test Section Information
             type: 'input',
             name: 'tests',
             message: 'Please provide a test for your application, and provide an example on how to run it.',
@@ -96,6 +103,7 @@ const questions = () => {
             }
         },
         {
+            // Github Username for profile link
             type: 'input',
             name: 'githubUser',
             message: 'Please provide your Github Username.',
@@ -110,6 +118,7 @@ const questions = () => {
             }
         },
         {
+            // Email to provide Contact Information
             type: 'input',
             name: 'email',
             message: 'Please provide your email address.',
@@ -149,16 +158,17 @@ function writeToFile(fileName) {
 // function to initialize program
 function init() {
 
+    // calls the function using inquirer to get input data. 
     questions()
+    // Creates the markdown
     .then(markDownData => {
       return generateMarkdown(markDownData);
     })
+    // Writes the file to an .md file and pushes it 
     .then(readmeMarkDown => {
       return writeToFile(readmeMarkDown);
     })
-    .then(writeFileResponse => {
-      console.log(writeFileResponse);
-    })
+    // Catches any errors from these promises
     .catch(err => {
       console.log(err);
     });
