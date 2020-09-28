@@ -27,7 +27,9 @@
 
   ## Tests
   This ReadMe IS the test example! It was created purely in the command line, and purly by this very application!
+  
   Walkthrough Video:
+  
   Part 1
   https://drive.google.com/file/d/1JQTwWWIdUlGsiGu9xW-_3ZVV46T4q74a/view?usp=sharing
   
