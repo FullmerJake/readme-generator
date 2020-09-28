@@ -4,7 +4,7 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
   ## Description
-  [![License](https://img.shields.io/badge/<SUBJECT>-<${data.license}>-<Green>.svg)](https://shields.io/)
+  [![License](https://img.shields.io/badge/License-${data.license}-<Green>.svg)](https://shields.io/)
 
   ${data.description}
 

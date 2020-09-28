@@ -1,7 +1,7 @@
 
   # asfglkadsjfga
   ## Description
-  [![License](https://img.shields.io/badge/<SUBJECT>-<Apache>-<Green>.svg)](https://shields.io/)
+  [![License](https://img.shields.io/badge/License-Apache-<Green>.svg)](https://shields.io/)
 
   adfhgasdfasd
 
