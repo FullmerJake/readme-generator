@@ -4,14 +4,14 @@
   test
 
   ## Table of Contents
-    * [Installation](#installation)
+    * <a href="#installation>Installation</a>
     * [Usage](#usage)
     * [License](#license)
     * [Contributing](#contributing)
     * [Tests](#tests)
     * [Questions](#questions)
 
-  ## Installation <a class="anchor">
+  ## Installation <a id="installation">
   test
 
   ## Usage
